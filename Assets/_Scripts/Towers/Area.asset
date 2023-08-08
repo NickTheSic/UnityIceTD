@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04bd73352851c440804baa645d61f94, type: 3}
+  m_Name: Area
+  m_EditorClassIdentifier: 
+  Range: 1.6
+  RangeModifier: 2
+  Power: 4
+  PowerModifier: 3
+  TimeDelay: 1.7
+  TimeDelayModifier: 0.5
+  BaseCost: 125
+  UpgradeCost: 75
+  UpgradeOffset: 35
+  Base: {fileID: 21300006, guid: 2495f1b866fb4ad4c98f6d1030d851e0, type: 3}
+  Barrel: {fileID: 21300004, guid: 2495f1b866fb4ad4c98f6d1030d851e0, type: 3}
+  Bullet: {fileID: 6425460339568496023, guid: ee6d1bdb609af5a4bae226252a984aad, type: 3}
+  CurrentState: 0
